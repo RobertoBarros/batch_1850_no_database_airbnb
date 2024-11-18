@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 class="text-center">Info of Flat <%= @flat['name'] %></h1>
+
+  <p class="text-center">
+    <%= image_tag @flat['imageUrl'], size: "300x300" %>
+  </p>
+
+  <%= link_to "Go back to Flats", flats_path, class: "btn btn-link" %>
+</div>
